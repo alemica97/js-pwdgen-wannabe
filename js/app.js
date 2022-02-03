@@ -1,4 +1,4 @@
-//creo una variabile costante
+//creo una variabile costante alla quale do io il valore
 const pswNumber = 21
 console.log(pswNumber)
 
