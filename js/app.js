@@ -14,8 +14,11 @@ console.log(userSurname);
 const favoriteColor = prompt('Qual è il tuo colore preferito?');
 console.log(favoriteColor);
 
+//variabile che contiene la scritta del mio span
+const pswHTML = document.getElementById('psw')
+console.log(pswHTML)
 
 //collego le stringhe in una unica
-document.getElementById('psw').innerHTML += `
-                                            ${userName}${userSurname}${favoriteColor}${pswNumber}
-                                            `
+pswHTML.innerHTML += `
+                      ${userName}${userSurname}${favoriteColor}${pswNumber}
+                      `
